@@ -35,15 +35,25 @@
     height: 380px;
     width: 700px;
     margin: 0 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: impact fantasy;
+}
+
+.information {
+    padding-right: 20px;
 }
 
 .healthy {
     font-size: 50px;
+    padding-top: 10px;
 }
 
 #paragraph {
     margin: -60px 0 0 0;
+    font-size: 17px;
+}
+
+.paragraphlink {
+    color: black;
 }
 
 .picture1 {
@@ -86,11 +96,11 @@
 }
 
 .extendedgreenbox {
-    background-color: rgb(159, 230, 159);
+    background-color: rgb(146, 207, 51);
     padding: 10px 10px 10px 60px;
     text-align: center;
     font-size: 10px;
-    font-family: Verdana;
+    font-family: verdana;
     font-weight: bolder;
 }
 
