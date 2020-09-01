@@ -1,0 +1,104 @@
+#background {
+    background-image: url('img/greybackground.png');
+    object-fit: cover;
+}
+
+.redtext {
+    color: red;
+}
+
+.greentext {
+    color: green;
+}
+
+.menue a {
+    float: right;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+.flexcontainer .tile {
+    object-fit: cover;
+    height: 380px;
+    width: 700px;
+    margin: 0 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.healthy {
+    font-size: 50px;
+}
+
+#paragraph {
+    margin: -60px 0 0 0;
+}
+
+.picture1 {
+    background-image: url("./img/bowl.jpg");
+    display: flex;
+    background-size: cover;
+    background-image: no-repeat;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.picture2 {
+    background-image: url("./img/pasta-salad-recipe-for-lunch.jpg");
+    display: flex;
+    background-size: cover;
+    background-image: no-repeat;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.picture3 {
+    display: flex;
+    background-image: url("./img/shrimp.jpg");
+    background-size: cover;
+    background-image: no-repeat;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.whitebox {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 10px;
+    font-family: Verdana;
+    font-weight: bolder;
+}
+
+.extendedgreenbox {
+    background-color: rgb(159, 230, 159);
+    padding: 10px 10px 10px 60px;
+    text-align: center;
+    font-size: 10px;
+    font-family: Verdana;
+    font-weight: bolder;
+}
+
+.greenbox {
+    background-color: rgb(110, 207, 110);
+    padding: 10px 10px 10px 40px;
+    text-align: center;
+    font-size: 10px;
+    font-family: Verdana;
+    font-weight: bolder;
+}
